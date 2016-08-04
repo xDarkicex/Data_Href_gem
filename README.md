@@ -24,14 +24,17 @@ Or install it yourself as:
 ## Usage
 
 To use this gem,
-first add to your gem file: gem 'data_href_highlight'
-Inside your application javasript file add //= require dataHref
-Inside application.css.scss add *= require dataHref
+first add to your gem file:
+    gem 'data_href_highlight'
+Inside your application javasript file add
+    //= require dataHref
+Inside application.css.scss add
+    *= require dataHref
 then on your table you will want to add the data-href attr set to your path location.
 example:
-<tbody>
-    <% @employees.each do |employee| %>
-        <tr data-href="<%= employee_url(employee) %>">
+    <tbody>
+        <% @employees.each do |employee| %>
+            <tr data-href="<%= employee_url(employee) %>">
 
 ## Development
 
@@ -41,7 +44,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/data_href_highlight.
+Bug reports and pull requests are welcome on GitHub at https://github.com/xdarkicex/data_href_highlight.
 
 
 ## License
