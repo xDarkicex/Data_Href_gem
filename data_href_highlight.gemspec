@@ -10,7 +10,9 @@ Gem::Specification.new do |spec|
   spec.email         = ["grolofson@bitdev.io"]
 
   spec.summary       = %q{This Gem adds a quick command to highlight data-href.}
-  spec.description   = %q{Highlight data-hrefs, making table rows clickable..}
+  spec.description   = %q{Highlight data-hrefs, making table rows clickable.. must set data-href in your table for this to function properly, example:   <tbody>
+      <% @employees.each do |employee| %>
+          <tr data-href="<%= employee_url(employee) %>">}
   spec.homepage      = "https://github.com/xDarkicex/Data_Href_gem"
   spec.license       = "MIT"
 
