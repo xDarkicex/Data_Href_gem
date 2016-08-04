@@ -1,4 +1,4 @@
-//= require hrefData
+//= require dataHref
 $(function(){
   $('body').click(function(e){
     var obj = $(e.target.parentNode);
