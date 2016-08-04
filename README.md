@@ -1,8 +1,9 @@
 # DataHrefHighlight
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/data_href_highlight`. To experiment with that code, run `bin/console` for an interactive prompt.
+This gem adds a script and simple css, to make table rows clickable adding much needed functionality too default rails tables.
 
-TODO: Delete this and the text above, and describe your gem
+future plan add in the data-href maybe the path for users to simplify it but I dont know if its possible.
+
 
 ## Installation
 
