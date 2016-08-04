@@ -25,13 +25,20 @@ Or install it yourself as:
 
 To use this gem,
 first add to your gem file:
+
     gem 'data_href_highlight'
+
 Inside your application javasript file add
+
     //= require dataHref
+
 Inside application.css.scss add
+
     *= require dataHref
+
 then on your table you will want to add the data-href attr set to your path location.
 example:
+
     <tbody>
         <% @employees.each do |employee| %>
             <tr data-href="<%= employee_url(employee) %>">
